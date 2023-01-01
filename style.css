@@ -1,0 +1,420 @@
+/* main page */
+.header{
+        font-family: 'Oranienbaum', serif;
+        font-size: 85px;
+        color: #FFFFFF;
+        text-align: center;
+        margin-bottom: 0;
+        
+}
+.description{
+    font-family: 'Oranienbaum', serif;
+    font-size: 20px;
+    color: #FFFFFF;
+    margin-top: 0;
+}
+footer{
+    padding: 20px;
+      display: flex;
+      justify-content: space-around;
+      margin-bottom: 0;
+  }
+  body{
+    background: #1E3A43;
+}
+.containerMain{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 0;
+    margin-bottom: 40px;
+}
+.mainPar{
+    font-family: 'Oranienbaum', serif;
+    font-size: 40px;
+    color: #FFFFFF;
+}
+.mainmenu{
+    text-decoration: none;
+}
+
+
+/* about us page */
+
+.containerAboutUS{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+.aboutUs{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 5px;
+}
+.about{
+    font-family: 'Oranienbaum', serif;
+    font-size: 20px;
+    color: #FFFFFF;  
+}
+.footerAbout{
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 0;
+    margin-top: 20px;
+    background: rgba(38, 88, 101, 0.76);
+}
+.text{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.contact{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 35px;
+    text-decoration: none;
+}
+.reach{
+    font-family: 'Oranienbaum', serif;
+    font-size: 25px;
+    color: #FFFFFF;  
+}
+.aboutC{
+    font-family: 'Oranienbaum', serif;
+    font-size: 20px;
+    color: #FFFFFF; 
+}
+.aboutH{
+   margin-bottom: 20px;
+}
+.check{
+    text-decoration: underline;
+    color: white;
+}
+.homeLink{
+   margin-left: 25px;
+   margin-top: 25px;
+}
+
+/* upcoming events page */
+h3{
+    font-family: 'Oranienbaum', serif;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+.containerUpcoming{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.blockEvent{
+    display: flex;
+    flex-wrap: wrap;
+}
+.event, .timeToEvent{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    background:rgba(38, 88, 101, 0.76) ;
+    margin: 5px;
+    width: 350px;
+    height: 350px;
+}
+.containerblock{
+    display: flex;
+    flex-direction: column;
+}
+.block{
+    display: flex;
+    flex-direction: column;
+}
+.date{
+    display: flex;
+}
+.time{
+    margin: 3px;
+}
+
+/* book the table page */
+.containerBookTable{
+    display: flex;
+    flex-direction: column;
+}
+.bookthetable{
+    display: flex;
+    justify-content: space-evenly;
+}
+.formbook{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    width: 445px;
+}
+.headerform{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Oranienbaum', serif;
+    font-size: 25px;
+    color: #FFFFFF;
+    text-align: center;
+    margin: 5px;
+}
+label{
+    font-family: 'Oranienbaum', serif;
+    font-size: 25px;
+    color: #FFFFFF;
+    text-align: center;
+    margin: 5px;
+}
+button{
+    background-color: rgba(38, 88, 101, 0.76);
+    font-family: 'Oranienbaum', serif;
+    font-size: 25px;
+    color: #FFFFFF;
+    text-align: center;
+    margin-top: 25px;
+    border: none;
+    height: 45px;
+}
+input{
+    background-color: #D9D9D9;
+    height: 35px;
+    font-family: 'Oranienbaum', serif;
+    margin-top: 5px;
+    width: 350px;
+}
+textarea{
+    background-color: #D9D9D9;
+    height: 65px;
+    font-family: 'Oranienbaum', serif;
+    margin-top: 5px;
+    width: 350px;
+}
+.table{
+    text-decoration: underline;
+    color: #FFFFFF;
+}
+
+/* menu page */
+.containerMenu{
+    display: flex;
+}
+.par{
+    font-family: 'Oranienbaum', serif;
+    color: #FFFFFF;
+    position: absolute;
+    font-size: 0;
+    background-color:  rgba(38, 88, 101, 0.76);
+}
+.price{
+    font-family: 'Oranienbaum', serif;
+    color: #FFFFFF;
+    position: absolute;
+    font-size: 0;
+    background-color:  rgba(38, 88, 101, 0.76);
+}
+h4{
+    font-family: 'Oranienbaum', serif;
+    position: absolute;
+    font-size: 0;
+    background-color:  rgba(38, 88, 101, 0.76);
+    color: #FFFFFF; 
+    margin: 3px;
+}
+.item{
+    height: 65vh;
+    background-size: cover;
+    background-position: center;
+    flex: 1;
+    margin: 5px;
+    position: relative;
+    display: flex;
+}
+.bakery {
+    background-image: url('khachapuri-with-kitchen-towel-dough-flour-wooden-cutting-board.jpg');
+}
+.soups{
+    background-image: url('kharcho.jpg');
+}
+.hotDishes{
+    background-image: url('khinkali.jpg');
+}
+.appetizers{
+    background-image: url('salad.jpg');
+}
+.desserts{
+    background-image: url('desert.jpg');
+}
+.wine{
+    background-image: url('wine.jpg');
+}
+.selected{
+    flex: 4;
+}
+.selected h4{
+    font-size: 40px;
+    transition: all is ease-in;
+}
+.selected .par{
+    font-size: 20px;
+    transition: all is ease-in;
+}
+.selected .price{
+    font-size: 30px;
+    transition: all is ease-in;
+}
+.one{
+    margin-top: 150px;
+    margin-left: 10px;
+}
+.oneP{
+    margin-top: 200px;
+    margin-left: 10px;
+}
+.two{
+    margin-top: 250px;
+    margin-left: 10px;
+}
+.twoP{
+    margin-top: 300px;
+    margin-left: 10px;
+}
+.three{
+    margin-top: 350px;
+    margin-left: 10px;
+}
+.threeP{
+    margin-top: 400px;
+    margin-left: 10px;
+}
+.four{
+    margin-top: 450px;
+    margin-left: 10px;
+}
+.fourP{
+    margin-top: 500px;
+    margin-left: 10px;
+}
+
+@media all and (max-width:800px){
+    .picture{
+        width: 250px;
+        height: 250px;
+    }
+    .header{
+        font-size: 45px;
+    }
+    footer{
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        margin-bottom: 5px;
+    }
+    .mainPar{
+        font-size: 20px;
+    }
+    .aboutUs{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .about{
+        font-size: 17px;
+    }
+    .aboutC, .reach{
+        font-size: 15px;
+    }
+    .containerMenu{
+        flex-direction: column;
+        height: 100vh;
+    }
+    .selected h4{
+        font-size: 30px;
+        transition: all is ease-in;
+    }
+    .selected .par{
+        font-size: 15px;
+        transition: all is ease-in;
+    }
+    .selected .price{
+        font-size: 17px;
+        transition: all is ease-in;
+    }
+
+    .one{
+        margin-top: 40px;
+        margin-left: 10px;
+    }
+    .oneP{
+        margin-top: 75px;
+        margin-left: 10px;
+    }
+    .two{
+        margin-top: 110px;
+        margin-left: 10px;
+    }
+    .twoP{
+        margin-top: 145px;
+        margin-left: 10px;
+    }
+    .three{
+        margin-top: 180px;
+        margin-left: 10px;
+    }
+    .threeP{
+        margin-top: 215px;
+        margin-left: 10px;
+    }
+    .four{
+        margin-top: 250px;
+        margin-left: 10px;
+    }
+    .fourP{
+        margin-top: 285px;
+        margin-left: 10px;
+    }
+    .bookthetable{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+    }
+    /* body, html{
+        overflow: hidden;
+    } */
+    .bookAnim{
+        font-size: 18px;
+    }
+    label{ 
+        font-size: 20px;
+    }
+    button{
+       
+        font-size: 20px;
+        margin-top: 20px;
+        height: 35px;
+    }
+    input{
+        height: 35px;
+        width: 300px;
+    }
+    textarea{
+        height: 45px;
+        width: 300px;
+    }
+    
+    
+}

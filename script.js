@@ -14,7 +14,7 @@ removeFocus=()=>{
 
 // first event countdown
 function firstEvent(){
-    const firstevent = new Date ('July 30, 2022 18:00');
+    const firstevent = new Date ('July 30, 2023 18:00');
     
     const now = new Date();
     const diff = firstevent-now;
@@ -46,12 +46,12 @@ let timerFirst=setInterval( firstEvent, 1000);
 
 function hereIsFirstEvent(){
     const selebrateFE= document.querySelector('#happyFE');
-    selebrateFE.textContent="Let's enjoy Georgian music! 07/30/2022"
+    selebrateFE.textContent="Let's enjoy Georgian music! 07/30/2023"
 }
 
 // second event countdown
 function secondEvent(){
-    const secondevent = new Date ('August 06, 2022 18:00');
+    const secondevent = new Date ('August 06, 2023 18:00');
     
     const now = new Date();
     const diff = secondevent-now;
@@ -83,12 +83,12 @@ let timerSecond=setInterval( secondEvent, 1000);
 
 function hereIsSecondEvent(){
     const selebrateSE= document.querySelector('#happySE');
-    selebrateSE.textContent="Sheff's special honey backlava for you as a complement! Enjoy! 08/06/2022"
+    selebrateSE.textContent="Sheff's special honey backlava for you as a complement! Enjoy! 08/06/2023"
 }
 
 // third event countdown
 function thirdEvent(){
-    const thirdevent = new Date ('September 03, 2022 18:00');
+    const thirdevent = new Date ('September 03, 2023 18:00');
     
     const now = new Date();
     const diff = thirdevent-now;
@@ -120,7 +120,7 @@ let timerThird=setInterval( thirdEvent, 1000);
 
 function hereIsThirdEvent(){
     const selebrateTE= document.querySelector('#happyTE');
-    selebrateTE.textContent="Happy Labor Day weekend! 09/03/2022"
+    selebrateTE.textContent="Happy Labor Day weekend! 09/03/2023"
 }
 
 // animations
